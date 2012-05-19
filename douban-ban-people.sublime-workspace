@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"fun",
+				"function"
+			],
+			[
 				"ov",
 				"overlaydiv"
 			],
@@ -47,7 +51,7 @@
 			"file": "manifest.json",
 			"settings":
 			{
-				"buffer_size": 470,
+				"buffer_size": 478,
 				"line_ending": "Windows"
 			}
 		},
@@ -55,7 +59,7 @@
 			"file": "contentscript.js",
 			"settings":
 			{
-				"buffer_size": 308,
+				"buffer_size": 1884,
 				"line_ending": "Windows"
 			}
 		}
@@ -163,7 +167,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -171,15 +175,15 @@
 					"file": "manifest.json",
 					"settings":
 					{
-						"buffer_size": 470,
+						"buffer_size": 478,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								171,
-								171
+								145,
+								145
 							]
 						],
 						"settings":
@@ -199,15 +203,15 @@
 					"file": "contentscript.js",
 					"settings":
 					{
-						"buffer_size": 308,
+						"buffer_size": 1884,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								203,
-								203
+								206,
+								206
 							]
 						],
 						"settings":
@@ -279,6 +283,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 157.0,
+	"side_bar_width": 211.0,
 	"status_bar_visible": true
 }

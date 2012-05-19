@@ -1,0 +1,22 @@
+﻿{
+  "name" : "豆瓣黑名单加强",
+  "version" : "0.1",
+  "description" : "让新版豆瓣的黑名单功能更名副其实",
+  "browser_action": {
+      "default_icon": "doubanicon-24.png",
+      "default_title": "豆瓣黑名单加强"
+  },
+  "content_scripts" : [
+    {
+      "matches" : [
+        "http://www.douban.com/*"
+      ],
+      "js" : ["jquery-1.7.2.min.js","contentscript.js"],
+      "run_at" : "document_end",
+      "all_frames" : false
+    }
+  ],
+    "permissions": [
+        "tabs",	"http://www.douban.com/*"
+    ]
+}
