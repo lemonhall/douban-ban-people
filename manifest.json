@@ -2,10 +2,7 @@
   "name" : "豆瓣黑名单加强",
   "version" : "0.1",
   "description" : "让新版豆瓣的黑名单功能更名副其实",
-  "browser_action": {
-      "default_icon": "doubanicon-24.png",
-      "default_title": "豆瓣黑名单加强"
-  },
+  "manifest_version": 2,
   "content_scripts" : [
     {
       "matches" : [
